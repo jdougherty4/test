@@ -13,12 +13,12 @@ xp: 100
 skills: 1
 ```
 
-You can use the Console located at the bottom to tell R what to do. You can do math, save things as variables, and use functions to perform actions.
+All code that we write in these boot camps is called scripts. Every time you execuate code, it's run through the console. You can use the Console located at the bottom to tell R what to do. You can do math, save things as variables, and use functions to perform actions.
 
 `@instructions`
 - Copy and paste the first line of code into the Console
-- store your output into a variable
-- Use the sqrt() function on your variable.
+- Store your output into a variable
+- Use the sqrt() function on your variable
 
 `@hint`
 - Here is the hint for this setup problem. 
@@ -51,8 +51,7 @@ sqrt(num)
 
 `@sct`
 ```{r}
-# Update this to something more informative.
-success_msg("Good work! You can use functions which work with numbers and variables.")
+success_msg("Good work! You've used your first function")
 ```
 
 ---
@@ -65,7 +64,7 @@ key: dde3d6001e
 xp: 100
 ```
 
-Broadly, syntax in R describes how to structure your inputs in a way that R can understand. If you have a solid base with syntax you can handle errors with a much better understanding. R was designed to be as intuitive as possible, but it comes with stricter rules to enforce a consistent structure. For example, Variables (covered last lesson) are case sensitive, so ensure you know whether or not your variables are capitalized.
+Broadly, syntax in R describes how to structure your inputs in a way that R can understand. If you have a solid base with syntax you can handle errors with a much better understanding. R was designed to be as intuitive as possible, but it comes with stricter rules to enforce a consistent structure. For example, variables (covered last lesson) are case sensitive, so ensure you know whether or not your variables are capitalized.
 
 **Functions** take **arguments** as inputs, **functions** can also be used as arguments within other functions. For example:
 
