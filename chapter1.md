@@ -77,7 +77,7 @@ sum(1,sum(1,3))
 Would return the same result becuase sum(1,3) evaluates to 4.
 
 `@instructions`
-
+Use functions to perform calculations on the data below.
 
 `@hint`
 
