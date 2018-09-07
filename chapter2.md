@@ -19,7 +19,7 @@ R has 5 major data types we will cover:
 - logical(A True or False response to a logical statement)
 
 `@instructions`
-
+Check out and change the different types of data. Notice what happens when a non-whole number is transformed into an integer.
 
 `@hint`
 
