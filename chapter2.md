@@ -25,14 +25,11 @@ Check out and change the different types of data. Notice what happens when a non
 
 
 `@pre_exercise_code`
-
 ```{r}
 
 ```
 
-
 `@sample_code`
-
 ```{r}
 typeof(1)
 typeof(1.2)
@@ -47,9 +44,7 @@ print(___)
 1>2
 ```
 
-
 `@solution`
-
 ```{r}
 typeof(1)
 typeof(1.2)
@@ -64,13 +59,10 @@ print(char)
 1>2
 ```
 
-
 `@sct`
-
 ```{r}
 
 ```
-
 
 ---
 
@@ -107,14 +99,11 @@ Complete the code to run calculations on the different types of data.
 
 
 `@pre_exercise_code`
-
 ```{r}
 library(ggplot2)
 ```
 
-
 `@sample_code`
-
 ```{r}
 vector  <- c(___,___,___)
 
@@ -129,9 +118,7 @@ str(diamonds)
 sum(diamonds$___)
 ```
 
-
 `@solution`
-
 ```{r}
 vector  <- c(5,10,15)
 
@@ -147,13 +134,10 @@ sum(diamonds$carat)
 
 ```
 
-
 `@sct`
-
 ```{r}
 
 ```
-
 
 ---
 
@@ -189,14 +173,11 @@ Subset a vector, matrix, data frame (using the $ subsetting method), and list as
 
 
 `@pre_exercise_code`
-
 ```{r}
 library(ggplot2)
 ```
 
-
 `@sample_code`
-
 ```{r}
 #Get the 4th element of the vector
 vector <- c(1,5,3,4)
@@ -214,9 +195,7 @@ list1[[___]][___]
 
 ```
 
-
 `@solution`
-
 ```{r}
 #Get the 4th element of the vector
 vector <- c(1,5,3,4)
@@ -234,9 +213,7 @@ list1[[2]][4]
 
 ```
 
-
 `@sct`
-
 ```{r}
 
 ```

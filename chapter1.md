@@ -83,14 +83,11 @@ Use functions to perform calculations on the data below.
 
 
 `@pre_exercise_code`
-
 ```{r}
 
 ```
 
-
 `@sample_code`
-
 ```{r}
 one <- 1
 two <- 2
@@ -108,9 +105,7 @@ sum(___,three)
 sum(one, ___.___(three))
 ```
 
-
 `@solution`
-
 ```{r}
 one <- 1
 two <- 2
@@ -128,9 +123,7 @@ sum(one,three)
 sum(one, as.integer(three))
 ```
 
-
 `@sct`
-
 ```{r}
 Great work!
 ```
