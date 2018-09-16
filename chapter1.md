@@ -127,3 +127,58 @@ sum(one, as.integer(three))
 ```{r}
 Great work!
 ```
+
+---
+
+## Basic Syntax 2
+
+```yaml
+type: NormalExercise
+key: 39992f162f
+xp: 100
+```
+
+If you need additional context about a function and its arguments, you can type the symbol **?** before the function into the console. This will bring up Rs documentation page which will give a description of the function, list its arguments, and provide some examples of the function in use.
+
+`@instructions`
+1. Type a question mark before the rep() function into the console and read through the documentation. After getting some more context on how the function is used, try creating the same number 10 times. 
+
+2. paste the code: ?seq() into the console.
+
+3. Create a sequence from 1 to 100
+
+4. Store a word into a variable and find the length of the stored word with the function len().
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+?Rep()
+
+?seq()
+
+?length()
+```
+
+
+`@sct`
+
+```{r}
+
+```
