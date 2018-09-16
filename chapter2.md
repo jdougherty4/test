@@ -81,7 +81,7 @@ In this chapter, we will cover how you can store data in a:
 - Data frame
 - list
 
-A vector can store many elements of data, as long as all the data is the same type. In R, a vector can be created with the c() function, which allows you to combine (or **concatinate**) many elements in one. For example, c(1,2,3) creates a vector with numbers from 1 to 3. 
+A vector can store many elements of data, as long as all the data is the same type. In R, a vector can be created with the c() function, which allows you to combine (or **concatinate**) many elements in one. For example, c(1,2,3) creates a vector with numbers from 1 to 3, seq(1,3) would give the same result. 
 
 You can also create matrices in R using the matrix() function. Try pasting the below code in your Console.
 
@@ -163,7 +163,7 @@ a[2,3]
 
 
 - List: Can be subsetted using double brackets to refer to the structure and respective element
-list1 <- list(c(1,2,3), c(4,5,6) )  
+list1 <- list(c(1,2,3), diamonds)  
 list1[[2]][1]
 
 `@instructions`
