@@ -122,7 +122,7 @@ sum(one, as.integer(three))
 
 `@sct`
 ```{r}
-Great work!
+success_msg("Good work! Dumby")
 ```
 
 ---
