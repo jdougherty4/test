@@ -17,7 +17,7 @@ All code that we write in these boot camps is called scripts. Every time you exe
 
 `@instructions`
 - Copy and paste the first line of code into the console
-- Store your output into a variable named "num"
+- Store your output into a variable named **num**
 - Use the sqrt() function on your variable
 
 `@hint`
