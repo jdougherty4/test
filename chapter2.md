@@ -153,6 +153,7 @@ Each data structure has its own unique way to subset its data:
 
 - Vector: can be subsetted with a single number in brackets [] indicating their position in the vector. 
 vector <- c(1,5,3,4)
+
 vector[2] #Outputs 5
 
 - Matrix: can be subsetted with single brackets with a comma separating the rows and columns respectively.
