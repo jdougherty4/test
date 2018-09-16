@@ -17,7 +17,7 @@ All code that we write in these boot camps is called scripts. Every time you exe
 
 `@instructions`
 - Copy and paste the first line of code into the console
-- Store your output into a variable
+- Store your output into a variable named "num"
 - Use the sqrt() function on your variable
 
 `@hint`
@@ -32,7 +32,7 @@ All code that we write in these boot camps is called scripts. Every time you exe
 ```{r}
 sqrt(5+5)
 
-___ <- 5+5
+num <- 5 + 5
 
 ___(___)
 ```
@@ -41,7 +41,7 @@ ___(___)
 ```{r}
 sqrt(5+5)
 
-num <- 5+5
+num <- 5 + 5
 
 sqrt(num)
 ```
