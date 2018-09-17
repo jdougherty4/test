@@ -150,14 +150,11 @@ If you need additional context about a function and its arguments, you can type 
 
 
 `@pre_exercise_code`
-
 ```{r}
 words <- c("Hello", "World", "!") 
 ```
 
-
 `@sample_code`
-
 ```{r}
 ?rep()
 
@@ -170,9 +167,7 @@ words
 length(___)
 ```
 
-
 `@solution`
-
 ```{r}
 ?rep()
 
@@ -185,9 +180,7 @@ words
 length(words)
 ```
 
-
 `@sct`
-
 ```{r}
 
 ```
