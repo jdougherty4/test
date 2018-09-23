@@ -28,15 +28,24 @@ When installing a packages, you should use the install.packages function the pac
 load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
 ```
 
+
+
 ```
 
 
 `@sample_code`
 
 ```{r}
+#Load the ggplot2 package
 ___(ggplot2)
+#The Dataset named "Data" is loaded into your workspace
+head(data)
 
+data1 <- data[,1:5]
 
+```{r}
+load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
+```
 
 
 ggplot()
