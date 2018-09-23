@@ -22,9 +22,12 @@ When installing a packages, you should use the install.packages function the pac
 `@pre_exercise_code`
 
 ```{r}
+`@pre_exercise_code`
+
 ```{r}
-data <-load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
+load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
 ```
+
 ```
 
 
@@ -33,7 +36,7 @@ data <-load(url("https://assets.datacamp.com/production/repositories/3522/datase
 ```{r}
 ___(ggplot2)
 
-data <-load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
+
 
 
 ggplot()
