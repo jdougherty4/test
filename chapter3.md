@@ -27,7 +27,8 @@ When installing a packages, you should use the install.packages function the pac
 ```{r}
 load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
 ```
-
+link <- "https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"
+data <- read.csv(link)
 
 
 ```
