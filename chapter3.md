@@ -43,10 +43,7 @@ head(data)
 
 data1 <- data[,1:5]
 
-```{r}
-load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
-```
-
+https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv
 
 ggplot()
 ```
