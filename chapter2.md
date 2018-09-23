@@ -239,28 +239,21 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{r}
 
 ```
-
 
 `@sample_code`
-
 ```{r}
 
 ```
-
 
 `@solution`
-
 ```{r}
 
 ```
 
-
 `@sct`
-
 ```{r}
 
 ```

@@ -20,22 +20,14 @@ When installing a packages, you should use the install.packages function the pac
 
 
 `@pre_exercise_code`
-
 ```{r}
-`@pre_exercise_code`
-
-```{r}
-load(url("https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"))
-```
 link <- "https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"
 data <- read.csv(link)
 
 
 ```
 
-
 `@sample_code`
-
 ```{r}
 #Load the ggplot2 package
 ___(ggplot2)
@@ -49,20 +41,15 @@ https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169
 ggplot()
 ```
 
-
 `@solution`
-
 ```{r}
 
 ```
-
 
 `@sct`
-
 ```{r}
 
 ```
-
 
 ---
 
@@ -83,32 +70,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{r}
 
 ```
-
 
 `@sample_code`
-
 ```{r}
 
 ```
-
 
 `@solution`
-
 ```{r}
 
 ```
-
 
 `@sct`
-
 ```{r}
 
 ```
-
 
 ---
 
@@ -129,28 +108,21 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{r}
 
 ```
-
 
 `@sample_code`
-
 ```{r}
 
 ```
-
 
 `@solution`
-
 ```{r}
 
 ```
 
-
 `@sct`
-
 ```{r}
 
 ```
