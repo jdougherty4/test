@@ -219,3 +219,48 @@ list1[[2]][4]
 ```{r}
 
 ```
+
+---
+
+## Practice exercises
+
+```yaml
+type: NormalExercise
+key: 4481b90ca6
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```

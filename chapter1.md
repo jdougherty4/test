@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-All code that we write in these boot camps is called scripts. Every time you execuate code, it's run through the console. You can use the console located at the bottom to tell R what to do. You can do math, save things as variables, and use functions to perform actions.
+All code that we write in these boot camps is called scripts. Every time you execute code, it's run through the console. You can use the console located at the bottom to tell R what to do. You can perform math operations, save things as variables, and use functions to perform actions.
 
 `@instructions`
 - Copy and paste the first line of code into the console
@@ -150,11 +150,14 @@ If you need additional context about a function and its arguments, you can type 
 
 
 `@pre_exercise_code`
+
 ```{r}
 words <- c("Hello", "World", "!") 
 ```
 
+
 `@sample_code`
+
 ```{r}
 ?rep()
 
@@ -167,7 +170,9 @@ words
 length(___)
 ```
 
+
 `@solution`
+
 ```{r}
 ?rep()
 
@@ -180,7 +185,9 @@ words
 length(words)
 ```
 
+
 `@sct`
+
 ```{r}
 
 ```
