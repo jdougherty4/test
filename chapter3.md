@@ -24,7 +24,7 @@ xp: 100
 link <- "https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"
 data <- read.csv(link)
 
-
+library(ggplot2)
 ```
 
 `@sample_code`
