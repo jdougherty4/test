@@ -230,17 +230,25 @@ key: 4481b90ca6
 xp: 100
 ```
 
-
+Follow the instructions to complete the additional challenges. These challenges are optional, but they offer more of a comprehensive glimpse of what's possible with R
 
 `@instructions`
-
+Subset the vector diamonds$carat to find the value in the 6th row
+Subset the diamonds dataframe to keep only cut and price columns
+subset the diamonds dataframe to find the 8th row in the price column
 
 `@hint`
 
 
 `@pre_exercise_code`
 ```{r}
+#Create subset Here
 
+
+#Create sutset Here
+
+
+#Create subset Here
 ```
 
 `@sample_code`

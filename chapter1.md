@@ -195,10 +195,12 @@ key: d76fe74915
 xp: 100
 ```
 
-
+Follow the instructions to complete the additional challenges. These challenges are optional, but they offer more of a comprehensive glimpse of what's possible with R
 
 `@instructions`
-
+Create a script that prints the username, the username can be created using a variable. 
+Create a script that adds a **sequence** of numbers from 0 to 15 by 3
+Save the last result as a variable and take the square root of the result above
 
 `@hint`
 
@@ -210,7 +212,13 @@ xp: 100
 
 `@sample_code`
 ```{r}
+#Create username Here
 
+
+#Create sequence sum Here
+
+
+#Find square root Here
 ```
 
 `@solution`
