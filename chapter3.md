@@ -11,7 +11,7 @@ key: d05e04f242
 xp: 100
 ```
 
-When installing a packages, you should use the install.packages function the package name should be in quotes
+
 
 `@instructions`
 
@@ -36,9 +36,10 @@ head(data)
 
 data1 <- data[,1:5]
 
-https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv
 
-ggplot()
+a <- ggplot(data = data1 aes(x = Year, y =Price ) )
+
+a + geom_point()
 ```
 
 `@solution`
