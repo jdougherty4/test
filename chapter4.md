@@ -3,7 +3,7 @@ title: 'Part 2 (importing with R)'
 description: ""
 ---
 
-## Insert exercise title here
+## Reading csvs
 
 ```yaml
 type: NormalExercise
@@ -49,7 +49,53 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Reading data from the Web
+
+```yaml
+type: NormalExercise
+key: d4c1683124
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Read_xl
 
 ```yaml
 type: NormalExercise
@@ -95,7 +141,7 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## data.table
 
 ```yaml
 type: NormalExercise

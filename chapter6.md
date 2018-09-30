@@ -3,7 +3,7 @@ title: 'Part 2 (Exploring Data)'
 description: ""
 ---
 
-## Insert exercise title here
+## Exploring your data
 
 ```yaml
 type: NormalExercise
@@ -11,7 +11,7 @@ key: b211902f49
 xp: 100
 ```
 
-
+glimpse, tibble?
 
 `@instructions`
 
@@ -49,7 +49,7 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Summaries and aggregate functions
 
 ```yaml
 type: NormalExercise
@@ -95,7 +95,7 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Visualization for exploration
 
 ```yaml
 type: NormalExercise
@@ -141,7 +141,7 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Central tendencies and variance
 
 ```yaml
 type: NormalExercise

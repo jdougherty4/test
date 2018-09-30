@@ -3,7 +3,7 @@ title: 'Part 2 (Cleaning Data)'
 description: ""
 ---
 
-## Insert exercise title here
+## Gsub and strReplace
 
 ```yaml
 type: NormalExercise
@@ -49,7 +49,53 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## completecases/is.na
+
+```yaml
+type: NormalExercise
+key: cbd6face41
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Filter
 
 ```yaml
 type: NormalExercise
@@ -95,7 +141,7 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Dates
 
 ```yaml
 type: NormalExercise

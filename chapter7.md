@@ -3,7 +3,7 @@ title: 'Part 2: Statistics with R'
 description: ""
 ---
 
-## Insert exercise title here
+## Variables and Correlation
 
 ```yaml
 type: NormalExercise
@@ -49,7 +49,53 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## t-test
+
+```yaml
+type: NormalExercise
+key: 81a15295d3
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Simple Linear Regression
 
 ```yaml
 type: NormalExercise
@@ -95,7 +141,7 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Multiple Linear regression
 
 ```yaml
 type: NormalExercise
@@ -141,11 +187,11 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Non-linear regression with glm
 
 ```yaml
 type: NormalExercise
-key: 3dc5be4a4b
+key: 729e299898
 xp: 100
 ```
 
