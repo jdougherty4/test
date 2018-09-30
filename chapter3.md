@@ -173,14 +173,11 @@ Use facet_wrap() to get a boxplot of the price by quality.
 
 
 `@pre_exercise_code`
-
 ```{r}
 
 ```
-
 
 `@sample_code`
-
 ```{r}
 #Create Chart Here
 
@@ -190,17 +187,13 @@ Use facet_wrap() to get a boxplot of the price by quality.
 
 #Create Chart Here
 ```
-
 
 `@solution`
-
 ```{r}
 
 ```
 
-
 `@sct`
-
 ```{r}
 
 ```
