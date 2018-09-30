@@ -100,6 +100,10 @@ sum(___,___)
 sum(___,three)
 
 sum(one, ___.___(three))
+
+summary()
+str()
+head()
 ```
 
 `@solution`
