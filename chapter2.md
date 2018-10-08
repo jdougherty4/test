@@ -154,12 +154,12 @@ Each data structure must be subset in a unique way:
 vector <- c(1,5,3,4)
 vector[2] # Outputs 5
 
-- Matrices: can be subset using square brackets with a comma separating the rows and columns respectively.
+- Matrices: can be subset using square brackets with a comma separating the row and column indices respectively.
 
 a <- matrix(1:12, nrow = 3, byrow = T)
 a[2,3] # Outputs the data point in the second row of the third column
 
-- Data frames: Similar to subsetting matrices, but columns can be called directly by name.
+- Data frames: Similar to subsetting matrices, but columns can also be called directly by name by using the $ symbol after the name of the data frame (names are explained in the next exercise).
 
 
 
@@ -176,15 +176,15 @@ library(ggplot2)
 
 `@sample_code`
 ```{r}
-#Pull the 4th element of the vector
+#Call the 4th element of the vector
 vector <- c(1,5,3,4)
 vector[___]
 
-#Pull the 2nd element in the 4th column of the matrix
+#Call the 2nd element in the 4th column of the matrix
 a <- matrix(1:12, nrow = 3, byrow = T)
 a[___,___]
 
-#Pull only the **carat** column in the **diamonds** data frame
+#Call only the **carat** column within the **diamonds** data frame
 diamonds$___
 
 
@@ -226,11 +226,11 @@ xp: 100
 1. Store the numbers 1 to 10 into a variable **A** 
 2. Store the numbers 11 to 20 into a variable **B** 
 3. Use rbind() to merge the two vectors into a data frame **df**
-4. Name the columns of the newly created data frame by passing the clnmes variable into the the names() function
+4. Name the columns of the newly created data frame by passing the **clnmes** variable into the the names() function
 
 `@hint`
 Use the : symbol or seq() function to create the vectors
-The names() function takes a data frame or matrix as it's first argument
+The names() function takes a data frame or matrix as an argument
 
 `@pre_exercise_code`
 ```{r}
