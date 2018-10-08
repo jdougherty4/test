@@ -61,24 +61,27 @@ key: d29beb634e
 xp: 100
 ```
 
-**Functions** take **arguments** as inputs, functions can also be used as arguments within other functions. For example:
+**Functions** take **arguments** as inputs, for example:
 
-**sum(1,4)**
+**sum(1 , 4)**
 
 
 returns 5, where 1 and 4 are **arguments** and sum() is the **function**. 
 
 
-Similarly:
+Similarly,functions can also be used as arguments within other functions:
 
-
-**sum(1,sum(1,3))**
+**sum(1 , sum( 1 ,3))**
 
 Would return the same result because sum(1,3) evaluates to 4.
 
-
 `@instructions`
-Use functions to perform calculations on the data below.
+Use one of the functions below to perform calculations:
+
+sqrt() #square root
+abs() #absolute value 
+mean() #average()
+print()
 
 `@hint`
 
@@ -90,42 +93,32 @@ Use functions to perform calculations on the data below.
 
 `@sample_code`
 ```{r}
-one <- 1
-two <- 2
+#Find the square root of 4
+___(4)
 
+#Find the absolute value of -16 and store it in a variable called absVal 
+absVal <- ___(___)
 
-one two
+#Find the square root of absVal
+___(absVal)
 
-one + two
-
-#Use the sum() function to add the variables
-___(one, two)
-
-sum(___,three)
-
-sum(one, ___.___(three))
-
-summary()
-str()
-head()
+#Print out the value of absVal
+print(___)
 ```
 
 `@solution`
 ```{r}
-one <- 1
-two <- 2
-three <- "3"
+#Find the square root of 4
+sqrt(4)
 
-one two
+#Find the absolute value of -16 and store it in a variable called absVal 
+absVal <- abs(-16)
 
-one + two
+#Find the square root of absVal
+sqrt(absVal)
 
-#Use the sum() function to add the varianles.
-sum(one,two)
-
-sum(one,three)
-
-sum(one, as.integer(three))
+#Print out the value of absVal
+print(absVal)
 ```
 
 `@sct`
