@@ -42,8 +42,6 @@ print(char)
 1<2
 1>2
 
-a <- 1:5
-a > 1
 ```
 
 `@solution`
@@ -59,8 +57,6 @@ print(char)
 1<2
 1>2
 
-a <- 1:5
-a > 1
 ```
 
 `@sct`
@@ -78,20 +74,20 @@ key: ee18591110
 xp: 100
 ```
 
-In this chapter, we will cover how you can store data in a:
+In these exercises, we will cover how you can store data in a:
 
 - Vector
 - Matrix
 - Data frame
 
-A vector can store many elements of data, as long as all the data is the same type. In R, a vector can be created with the c() function, which allows you to combine (or **concatinate**) many elements in one. For example, c(1,2,3) creates a vector with numbers from 1 to 3, seq(1,3) would give the same result. 
+A vector can store many elements of data, as long as all the data is of the same type. In R, a vector can be created with the c() function, which allows you to combine (or **concatinate**) many elements in one. For example, c(1,2,3) creates a vector with numbers from 1 to 3, seq(1,3) would give the same result. You can also use the : symbol to create vectors. For example, 1:10 creates a vector with the numbers 1 to 10.
 
-You can also create matrices in R using the matrix() function. Try pasting the below code in your Console.
+You can create matrices in R using the matrix() function. Try pasting the below code in your Console.
 
 a <- matrix(1:12, nrow = 3, byrow = T)
 a
 
-Data frames are similar to matrices and the table structure in Excel. Each row represents a unique observation and each column represents a variable.
+Data frames are similar to matrices and the table structure in Excel. Each row represents a unique observation and each column represents a variable. Data frames are one of the most widely used data structure in R.
 
 `@instructions`
 Complete the code to run calculations on the different types of data.
