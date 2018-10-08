@@ -161,8 +161,6 @@ a[2,3] # Outputs the data point in the second row of the third column
 
 - Data frames: Similar to subsetting matrices, but columns can also be called directly by name by using the $ symbol after the name of the data frame (names are explained in the next exercise).
 
-
-
 `@instructions`
 Subset a vector, matrix and data frame (using the $ subsetting method).
 
