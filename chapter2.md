@@ -313,7 +313,7 @@ select and filter
 
 ---
 
-## Practice exercises
+## Practice exercises 1
 
 ```yaml
 type: NormalExercise
@@ -327,9 +327,6 @@ Follow the instructions to complete the additional challenges. These challenges 
 Subset the vector diamonds$carat to find the value in the 6th row
 Subset the diamonds dataframe to keep only cut and price columns
 subset the diamonds dataframe to find the 8th row in the price column
-
-
-paste
 
 `@hint`
 
