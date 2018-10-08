@@ -14,7 +14,7 @@ xp: 100
 R has 5 major data types we will cover:
 
 - numeric (wide range of numbers including decimals)
-- integer (must be whole numbers)
+- integer (whole numbers)
 - character (text or a string, "Hello")
 - logical(A True or False response to a logical statement)
 

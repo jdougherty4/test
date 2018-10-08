@@ -126,7 +126,7 @@ sum(one, as.integer(three))
 
 `@sct`
 ```{r}
-success_msg("Good work! Dumby")
+success_msg("Good work!")
 ```
 
 ---
@@ -142,13 +142,13 @@ xp: 100
 If you need additional context about a function and its arguments, you can type the symbol **?** before the function into the console. This will bring up R's documentation page which will give a description of the function, list it's arguments, and provide some examples of the function in use.
 
 `@instructions`
-1. Run the first line of code with a question mark before the **rep**() function into the console and read through the documentation. After getting some more context on how the function is used, try replicating the number 2 ten times. 
+1. Run the first line of code with a question mark before the **rep**() function into the console and read through the documentation. After getting some more context on how the function is used, try replicating the number 2 ten times 
 
-2. paste the code: ?**seq**() into the console.
+2. paste the code: ?**seq**() into the console
 
 3. Create a sequence from 1 to 100
 
-4. Store a word into a variable and find the length of the stored word with the function **length**().
+4. Store a word into a variable and find the length of the stored word with the function **length**()
 
 `@hint`
 
@@ -219,7 +219,7 @@ Save the last result as a variable and take the square root of the result above
 `@sample_code`
 ```{r}
 # Here
-
+n <- ___
 
 #Create sequence sum Here
 
@@ -229,10 +229,10 @@ Save the last result as a variable and take the square root of the result above
 
 `@solution`
 ```{r}
-
+n <- 5
 ```
 
 `@sct`
 ```{r}
-
+ex() %>% check_object("n") %>% check_equal() success_msg("Well done!")
 ```
