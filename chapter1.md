@@ -227,7 +227,9 @@ xp: 100
 If you need additional context about a function and its arguments, you can type the symbol **?** before the function into the console. This will bring up R's documentation page which will give a description of the function, list it's arguments, and provide some examples of the function in use.
 
 `@instructions`
-Run the first line of code with a question mark before the **seq**() function into the console and read through the documentation. After getting some more context on how the function is used, try creating a sequence **from** 0 **to** 10 **by** 2
+- 
+Run the first line of code with a question mark before the **seq**() function into the console and read through the documentation. 
+After getting some more context on how the function is used, try creating a sequence **from** 0 **to** 10 **by** 2
 
 `@hint`
 
