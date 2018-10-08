@@ -229,7 +229,10 @@ If you need additional context about a function and its arguments, you can type 
 `@instructions`
 - 
 Run the first line of code with a question mark before the **seq**() function into the console and read through the documentation. 
-After getting some more context on how the function is used, try creating a sequence **from** 0 **to** 10 **by** 2
+
+- After getting some more context on how the function is used, try creating a sequence **from** 0 **to** 10 **by** 2
+
+- Using ?nchar() find out how many letters are in the string "Hello World"
 
 `@hint`
 
@@ -243,22 +246,22 @@ After getting some more context on how the function is used, try creating a sequ
 ```{r}
 ?seq()
 
-seq(___,___)
+seq(___ = ___,___ = ___, ___ = ___)
 
-length(___)
+?nchar()
+
+nchar("___")
 ```
 
 `@solution`
 ```{r}
-?rep()
+?seq()
 
-rep(2,10)
+seq(from = 1,to = 100, by = 1)
 
-seq(1,100)
+?nchar()
 
-words
-
-length(words)
+nchar("Hello World")
 ```
 
 `@sct`
