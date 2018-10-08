@@ -136,7 +136,7 @@ key: dde3d6001e
 xp: 100
 ```
 
-It's very important to know how R views your scripts because it generally expects a specific structure. Syntax describes how to structure your scripts in a way R can understand. 
+Syntax describes how to structure your scripts in a way R can understand. 
 
 To use functions, it is essential to use the correct syntax. R was designed to be as readable as possible, but it comes with strict rules to enforce a consistent syntax structure. For example, variables  are case sensitive, so if you define:
 
@@ -161,11 +161,51 @@ Will result in an error.
 
 `@sample_code`
 ```{r}
+one <- 1
+two <- 2
+three <- "3"
+
+
+one two
+one + two
+
+#Use a function to add the variables
+
+___(one, two)
+
+#Try to add a number to the 3 variable, what happens?
+
+sum(___,three)
+
+typeof(three)
+
+#use the as.integer funtion to change 3 from text to a number
+sum(one, ___.___(three))
 
 ```
 
 `@solution`
 ```{r}
+one <- 1
+two <- 2
+three <- "3"
+
+
+one two
+one + two
+
+#Use a function to add the variables
+
+sum(one, two)
+
+#Try to add a number to the 3 variable, what happens?
+
+sum(one,three)
+
+typeof(three)
+
+#use a funtion to change 3 from text to a number
+sum(one, as.integer(three))
 
 ```
 
@@ -187,31 +227,21 @@ xp: 100
 If you need additional context about a function and its arguments, you can type the symbol **?** before the function into the console. This will bring up R's documentation page which will give a description of the function, list it's arguments, and provide some examples of the function in use.
 
 `@instructions`
-1. Run the first line of code with a question mark before the **rep**() function into the console and read through the documentation. After getting some more context on how the function is used, try replicating the number 2 ten times 
-
-2. paste the code: ?**seq**() into the console
-
-3. Create a sequence from 1 to 100
-
-4. Store a word into a variable and find the length of the stored word with the function **length**()
+Run the first line of code with a question mark before the **seq**() function into the console and read through the documentation. After getting some more context on how the function is used, try creating a sequence **from** 0 **to** 10 **by** 2
 
 `@hint`
 
 
 `@pre_exercise_code`
 ```{r}
-words <- c("Hello", "World", "!") 
+
 ```
 
 `@sample_code`
 ```{r}
-?rep()
-
-rep(___,___)
+?seq()
 
 seq(___,___)
-
-words
 
 length(___)
 ```

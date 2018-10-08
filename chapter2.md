@@ -36,19 +36,6 @@ typeof(1.2)
 
 as.integer(3.2)
 
-one <- 1
-two <- 2
-
-one two
-one + two
-
-#Use the sum() function to add the variables
-___(one, two)
-
-sum(___,three)
-
-sum(one, ___.___(three))
-
 char <- "Hello World"
 print(char)
 ```
@@ -60,19 +47,7 @@ typeof(1.2)
 
 as.integer(3.2)
 
-one <- 1
-two <- 2
 
-one two
-
-one + two
-
-#Use the sum() function to add the variables
-sum(one, two)
-
-sum(one,three)
-
-sum(one, as.integer(three))
 
 char <- "Hello World"
 print(char)
