@@ -147,27 +147,24 @@ key: ca381e61a5
 xp: 100
 ```
 
-Each data structure has its own unique way to subset its data:
+Each data structure must be subset in a unique way:
 
-- Vector: can be subsetted with a single number in brackets [] indicating their position in the vector. 
+- Vectors: can be subset with a single number in square brackets **[]** indicating their position in the vector. 
 
-  vector <- c(1,5,3,4)
+vector <- c(1,5,3,4)
+vector[2] # Outputs 5
 
-  vector[2] #Outputs 5
+- Matrices: can be subset using square brackets with a comma separating the rows and columns respectively.
 
-- Matrix: can be subsetted with single brackets with a comma separating the rows and columns respectively.
 a <- matrix(1:12, nrow = 3, byrow = T)
-a[2,3]
+a[2,3] # Outputs the data point in the second row of the third column
 
-- Data frame: Similar to subsetting matrices, but columns can be called directly.
+- Data frames: Similar to subsetting matrices, but columns can be called directly by name.
 
 
-- List: Can be subsetted using double brackets to refer to the structure and respective element
-list1 <- list(c(1,2,3), diamonds)  
-list1[[2]][1]
 
 `@instructions`
-Subset a vector, matrix, data frame (using the $ subsetting method), and list as instructed.
+Subset a vector, matrix and data frame(using the $ subsetting method).
 
 `@hint`
 
@@ -182,6 +179,7 @@ library(ggplot2)
 #Get the 4th element of the vector
 vector <- c(1,5,3,4)
 vector[___]
+
 #Get the 2nd element in the 3rd row of the Matrix
 a <- matrix(1:12, nrow = 3, byrow = T)
 a[___,___]
@@ -242,20 +240,16 @@ The names() function takes a data frame or matrix as it's first argument
 `@sample_code`
 ```{r}
 # Assign variable A
-
 A <- ___
 
 # Assign variable B
-
 B <- ___
 
 # Bind B to A and store the output in the variable df then print the output
-
 df <- ___(___,___)
 df
 
 # Rename the column headers
-
 clnmes <- c("onetoten", "eleventotwenty")
 ___(__) <- clnmes
 
