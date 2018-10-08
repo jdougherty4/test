@@ -219,14 +219,15 @@ Save the last result as a variable **seqsum** and take the square root of the re
 `@sample_code`
 ```{r}
 # Store variable
-
+n <- ___
 
 # Create sequence sum here
-sum(___(___,___,___))
+___(___,___,___)
 
+sum()
 # Find square root here
 
-seqsum <- 
+
 ```
 
 `@solution`
