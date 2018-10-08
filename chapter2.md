@@ -15,11 +15,11 @@ R has 5 major data types we will cover:
 
 - numeric (wide range of numbers including decimals)
 - integer (whole numbers)
-- character (text or a string, "Hello")
-- logical(A True or False response to a logical statement)
+- character (text or a string such as "Hello")
+- logical (True or False response to a logical statement)
 
 `@instructions`
-Check out and change the different types of data. Notice what happens when a non-whole number is transformed into an integer.
+Run the code one line at a time. Check out and change the different types of data. Notice what happens when a non-whole number is transformed into an integer.
 
 `@hint`
 
@@ -76,10 +76,9 @@ xp: 100
 
 In this chapter, we will cover how you can store data in a:
 
-- vector
+- Vector
 - Matrix
 - Data frame
-- list
 
 A vector can store many elements of data, as long as all the data is the same type. In R, a vector can be created with the c() function, which allows you to combine (or **concatinate**) many elements in one. For example, c(1,2,3) creates a vector with numbers from 1 to 3, seq(1,3) would give the same result. 
 
@@ -88,9 +87,7 @@ You can also create matrices in R using the matrix() function. Try pasting the b
 a <- matrix(1:12, nrow = 3, byrow = T)
 a
 
-Data frames are similar to the table structure in Excel. Each row represents a unique observation and each column representing a variable. 
-
-Lists are a special type of data structure that can store many other data structures. One list can contain a vector, a matrix, data frame, and even another list.
+Data frames are similar to matrices and the table structure in Excel. Each row represents a unique observation and each column represents a variable.
 
 `@instructions`
 Complete the code to run calculations on the different types of data.
