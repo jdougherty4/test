@@ -230,13 +230,17 @@ key: db6307e18b
 xp: 100
 ```
 
-
+**rbind()** allows you to add or bind extra rows of data to existing data. The **names()** function names or rename column headers.
 
 `@instructions`
-
+1. Store the numbers 1 to 10 into a variable **A** 
+2. Store the numbers 11 to 20 into a variable **B** 
+3. Use rbind() to merge the two vectors into a data frame **df**
+4. Name the columns of the newly created data frame by passing the clnmes variable into the the names() function
 
 `@hint`
-
+Use the : symbol or seq() function to create the vectors
+The names() function takes a data frame or matrix as it's first argument
 
 `@pre_exercise_code`
 ```{r}
@@ -245,12 +249,37 @@ xp: 100
 
 `@sample_code`
 ```{r}
+# Assign variable A
 
+A <- ___
+
+# Assign variable B
+
+B <- ___
+
+# Bind B to A and store the output in the variable df then print the output
+
+df <- ___(___,___)
+df
+
+# Rename the column headers
+
+clnmes <- c("onetoten", "eleventotwenty")
+___(__) <- clnmes
+
+# Print the variable df into the console
+df
 ```
 
 `@solution`
 ```{r}
-
+A <- 1:10
+B <- 11:20
+df <- rbind(A,B)
+df
+clnmes <- c("onetoten", "eleventotwenty")
+names(C) <- clnmes
+df
 ```
 
 `@sct`
