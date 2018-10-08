@@ -202,37 +202,41 @@ xp: 100
 Follow the instructions to complete the additional challenges. These challenges are optional, but they offer more of a comprehensive glimpse of what's possible with R
 
 `@instructions`
-Create a script that stores a variable, then print the variable using the print() function. 
+Create a script that stores the number 5 to the variable **n**, then print the variable using the print() function. 
 
-Create a script that **adds** a **sequence** of odd numbers from 0 to 25
+Create a script that **adds** up a **sequence** of odd numbers from 0 to 25
 
-Save the last result as a variable and take the square root of the result above
+Save the last result as a variable **seqsum** and take the square root of the result above
 
 `@hint`
 
 
 `@pre_exercise_code`
 ```{r}
-n <- 5
+
 ```
 
 `@sample_code`
 ```{r}
-# Here
+# Store variable
 
 
-#Create sequence sum Here
+# Create sequence sum here
+sum(___(___,___,___))
 
+# Find square root here
 
-#Find square root Here
+seqsum <- 
 ```
 
 `@solution`
 ```{r}
 n <- 5
+print(n)
+sum(seq(1,25,2))
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("n") %>% check_equal() success_msg("Well done!")
+
 ```
