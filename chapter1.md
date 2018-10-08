@@ -61,7 +61,7 @@ key: dde3d6001e
 xp: 100
 ```
 
-Broadly, syntax in R describes how to structure your inputs in a way that R can understand. If you have a solid base with syntax, you can handle errors with a much better understanding. R was designed to be as intuitive as possible, but it comes with strict rules to enforce a consistent structure. For example, variables (covered last lesson) are case sensitive, so ensure you know whether or not your variables are capitalized.
+Broadly, syntax in R describes how to structure your inputs in a way that R can understand. A solid base with syntax allows the user to handle errors with a much better understanding. R was designed to be as intuitive as possible, but it comes with strict rules to enforce a consistent structure. For example, variables (covered last lesson) are case sensitive, so ensure you know whether or not your variables are capitalized.
 
 **Functions** take **arguments** as inputs, **functions** can also be used as arguments within other functions. For example:
 
@@ -95,7 +95,7 @@ one two
 one + two
 
 #Use the sum() function to add the variables
-sum(___,___)
+___(one, tow_)
 
 sum(___,three)
 
@@ -202,8 +202,10 @@ xp: 100
 Follow the instructions to complete the additional challenges. These challenges are optional, but they offer more of a comprehensive glimpse of what's possible with R
 
 `@instructions`
-Create a script that prints the username, the username can be created using a variable. 
-Create a script that adds a **sequence** of numbers from 0 to 15 by 3
+Create a script that stores a variable, then print the variable using the print() function. 
+
+Create a script that **adds** a **sequence** of odd numbers from 0 to 25
+
 Save the last result as a variable and take the square root of the result above
 
 `@hint`
@@ -216,7 +218,7 @@ Save the last result as a variable and take the square root of the result above
 
 `@sample_code`
 ```{r}
-#Create username Here
+# Here
 
 
 #Create sequence sum Here

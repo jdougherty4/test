@@ -222,6 +222,82 @@ list1[[2]][4]
 
 ---
 
+## rbind and names()
+
+```yaml
+type: NormalExercise
+key: db6307e18b
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Manipulating data with dplyr
+
+```yaml
+type: NormalExercise
+key: 3fe03bbcf3
+xp: 100
+```
+
+select and filter
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
 ## Practice exercises
 
 ```yaml
@@ -236,6 +312,9 @@ Follow the instructions to complete the additional challenges. These challenges 
 Subset the vector diamonds$carat to find the value in the 6th row
 Subset the diamonds dataframe to keep only cut and price columns
 subset the diamonds dataframe to find the 8th row in the price column
+
+
+paste
 
 `@hint`
 

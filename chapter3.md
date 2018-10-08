@@ -21,7 +21,7 @@ ggplot2 is the most comprehensive visualization package in R. It offers the abil
 
 `@pre_exercise_code`
 ```{r}
-link <- "https://assets.datacamp.com/production/repositories/3522/datasets/15037db2827169bf67b3db91ec70cd9e235737dd/Prices_Data12.csv"
+link <- "https://assets.datacamp.com/production/repositories/3649/datasets/e8f6da0057be7be15146e8f66ed150429b613429/prices_fin.csv"
 data <- read.csv(link)
 
 library(ggplot2)
