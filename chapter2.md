@@ -80,7 +80,7 @@ In these exercises, we will cover how you can store data in a:
 - Matrix
 - Data frame
 
-A vector can store many elements of data, as long as all the data is of the same type. In R, a vector can be created with the c() function, which allows you to combine (or **concatinate**) many elements in one. For example, c(1,2,3) creates a vector with numbers from 1 to 3, seq(1,3) would give the same result. You can also use the : symbol to create vectors. For example, 1:10 creates a vector with the numbers 1 to 10.
+A vector can store many elements of data, as long as all the data is of the same type. In R, a vector can be created with the c() function, which allows you to combine (or **concatinate**) many elements in one. For example, c(1,2,3) creates a vector with numbers 1 to 3, seq(1,3) would give the same result. You can also use the : symbol to create vectors. For example, 1:10 creates a vector with numbers 1 to 10.
 
 You can create matrices in R using the matrix() function. Try pasting the below code in your Console.
 
@@ -90,7 +90,10 @@ a
 Data frames are similar to matrices and the table structure in Excel. Each row represents a unique observation and each column represents a variable. Data frames are one of the most widely used data structure in R.
 
 `@instructions`
-Complete the code to run calculations on the different types of data.
+-Store a five, ten and fifteen into the variable **vector**
+-Find the sum of all the elements of **vector**
+-Use the head(), summary() and str() functions to inspect the diamonds data frame
+-
 
 `@hint`
 
@@ -102,17 +105,18 @@ library(ggplot2)
 
 `@sample_code`
 ```{r}
+# Create vector
 vector  <- c(___,___,___)
 
+# Find sum
 sum(___)
 
+# head(), summary() and str()
 head(diamonds)
 
 summary(diamonds)
 
 str(diamonds)
-
-sum(diamonds$___)
 ```
 
 `@solution`
@@ -126,9 +130,6 @@ head(diamonds)
 summary(diamonds)
 
 str(diamonds)
-
-sum(diamonds$carat)
-
 ```
 
 `@sct`
