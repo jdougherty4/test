@@ -36,12 +36,21 @@ typeof(1.2)
 
 as.integer(3.2)
 
+one <- 1
+two <- 2
+
+one two
+one + two
+
+#Use the sum() function to add the variables
+___(one, two)
+
+sum(___,three)
+
+sum(one, ___.___(three))
+
 char <- "Hello World"
 print(char)
-
-1<2
-1>2
-
 ```
 
 `@solution`
@@ -51,11 +60,68 @@ typeof(1.2)
 
 as.integer(3.2)
 
+one <- 1
+two <- 2
+
+one two
+
+one + two
+
+#Use the sum() function to add the variables
+sum(one, two)
+
+sum(one,three)
+
+sum(one, as.integer(three))
+
 char <- "Hello World"
 print(char)
 
 1<2
 1>2
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Data Types 2
+
+```yaml
+type: NormalExercise
+key: 711cb60cc4
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+1<2
+1>2
+T
+F
+
+factor()
+```
+
+`@solution`
+```{r}
 
 ```
 

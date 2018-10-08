@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-All code that we write in these boot camps is called scripts. Every time you execute code, it's run through the console. You can use the console located at the bottom to tell R what to do. You can perform math operations, save things as variables, and use functions to perform actions.
+All code that we write in these bootcamps are called scripts. Every time you execute code, it's run through the console. You can use the console located at the bottom to tell R what to do. You can perform math operations, save things as variables, and use functions to perform actions.
 
 `@instructions`
 - Copy and paste the first line of code into the console
@@ -53,25 +53,29 @@ success_msg("Good work! You've used your first function")
 
 ---
 
-## Basic Syntax
+## Functions
 
 ```yaml
 type: NormalExercise
-key: dde3d6001e
+key: d29beb634e
 xp: 100
 ```
 
-Broadly, syntax in R describes how to structure your inputs in a way that R can understand. A solid base with syntax allows the user to handle errors with a much better understanding. R was designed to be as intuitive as possible, but it comes with strict rules to enforce a consistent structure. For example, variables (covered last lesson) are case sensitive, so ensure you know whether or not your variables are capitalized.
+**Functions** take **arguments** as inputs, functions can also be used as arguments within other functions. For example:
 
-**Functions** take **arguments** as inputs, **functions** can also be used as arguments within other functions. For example:
+**sum(1,4)**
 
-sum(1,4)
 
-returns 5, where 1 and 4 are **arugments** and sum() is the function. Similarly:
+returns 5, where 1 and 4 are **arguments** and sum() is the **function**. 
 
-sum(1,sum(1,3)) 
+
+Similarly:
+
+
+**sum(1,sum(1,3))**
 
 Would return the same result because sum(1,3) evaluates to 4.
+
 
 `@instructions`
 Use functions to perform calculations on the data below.
@@ -88,14 +92,14 @@ Use functions to perform calculations on the data below.
 ```{r}
 one <- 1
 two <- 2
-three <- "3"
+
 
 one two
 
 one + two
 
 #Use the sum() function to add the variables
-___(one, tow_)
+___(one, two)
 
 sum(___,three)
 
@@ -122,6 +126,54 @@ sum(one,two)
 sum(one,three)
 
 sum(one, as.integer(three))
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Basic Syntax
+
+```yaml
+type: NormalExercise
+key: dde3d6001e
+xp: 100
+```
+
+It's very important to know how R views your scripts because it generally expects a specific structure. Syntax describes how to structure your scripts in a way R can understand. 
+
+To use functions, it is essential to use the correct syntax. R was designed to be as readable as possible, but it comes with strict rules to enforce a consistent syntax structure. For example, variables  are case sensitive, so if you define:
+
+Two <-2
+
+Then 
+
+sum(two, 5)
+
+Will result in an error.
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
 ```
 
 `@sct`
