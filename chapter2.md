@@ -19,7 +19,7 @@ R has 5 major data types we will cover:
 - logical (True or False response to a logical statement)
 
 `@instructions`
-Run the code one line at a time. Check out and change the different types of data. Notice what happens when a non-whole number is transformed into an integer.
+Run the sample code one line at a time. Notice what happens when a non-whole number is transformed into an integer. Feel free to play around with the functions.
 
 `@hint`
 
@@ -34,14 +34,16 @@ Run the code one line at a time. Check out and change the different types of dat
 typeof(1)
 typeof(1.2)
 
-as.integer(___)
+as.integer(3.2)
 
 char <- "Hello World"
-
-print(___)
+print(char)
 
 1<2
 1>2
+
+a <- 1:5
+a > 1
 ```
 
 `@solution`
@@ -49,14 +51,16 @@ print(___)
 typeof(1)
 typeof(1.2)
 
-as.integer(1.2)
+as.integer(3.2)
 
 char <- "Hello World"
-
 print(char)
 
 1<2
 1>2
+
+a <- 1:5
+a > 1
 ```
 
 `@sct`
