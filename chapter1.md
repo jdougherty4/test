@@ -286,8 +286,6 @@ Create a script that stores the number 5 to the variable **n**, then print the v
 
 Create a script that **adds** up a **sequence** of odd numbers from 0 to 25
 
-Save the last result as a variable **seqsum** and take the square root of the result above
-
 `@hint`
 
 
@@ -298,23 +296,37 @@ Save the last result as a variable **seqsum** and take the square root of the re
 
 `@sample_code`
 ```{r}
-# Store variable
+# Store and print the variable
 n <- ___
 
-# Create sequence sum here
-___(___,___,___)
+___(n)
 
-sum()
-# Find square root here
+# Create the sequence and store the result in the "odds" variable
+odds <- seq(___, ___, ___)
 
+#find the sum of all the odd numbers in your sequence
+sum(___)
 
+# Find square root of the sum of odds
+___(___(odds))
 ```
 
 `@solution`
 ```{r}
+# Store variable
 n <- 5
+
 print(n)
-sum(seq(1,25,2))
+
+# Create the sequence and store the result in the "odds" variable
+odds <- seq(0,25,2)
+
+#find the sum of all the odd numbers in your sequence
+sum(odds)
+
+# Find square root of the sum of odds
+sqrt(sum(odds))
+
 ```
 
 `@sct`
