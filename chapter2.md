@@ -191,9 +191,6 @@ a[___,___]
 #Get the carat column Data frame
 diamonds$___
 
-#Get the 4th element in the second vector of the List
-list1 <- list(c(1,2,3), c(4,5,6,7) )  
-list1[[___]][___]
 
 ```
 
@@ -209,9 +206,6 @@ a[2,3]
 #Get the carat column Data frame
 diamonds$carat
 
-#Get the 4th element in the second vector of the List
-list1 <- list(c(1,2,3), c(4,5,6,7) )  
-list1[[2]][4]
 
 ```
 
@@ -230,7 +224,7 @@ key: db6307e18b
 xp: 100
 ```
 
-**rbind()** allows you to add or bind extra rows of data to existing data. The **names()** function names or rename column headers.
+**rbind()** allows you to add or bind extra rows of data to existing data. The **names()** function can name or rename column headers.
 
 `@instructions`
 1. Store the numbers 1 to 10 into a variable **A** 
