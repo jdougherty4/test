@@ -213,13 +213,13 @@ Save the last result as a variable and take the square root of the result above
 
 `@pre_exercise_code`
 ```{r}
-
+n <- 5
 ```
 
 `@sample_code`
 ```{r}
 # Here
-n <- ___
+
 
 #Create sequence sum Here
 
