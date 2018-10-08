@@ -164,7 +164,7 @@ a[2,3] # Outputs the data point in the second row of the third column
 
 
 `@instructions`
-Subset a vector, matrix and data frame(using the $ subsetting method).
+Subset a vector, matrix and data frame (using the $ subsetting method).
 
 `@hint`
 
@@ -176,15 +176,15 @@ library(ggplot2)
 
 `@sample_code`
 ```{r}
-#Get the 4th element of the vector
+#Pull the 4th element of the vector
 vector <- c(1,5,3,4)
 vector[___]
 
-#Get the 2nd element in the 3rd row of the Matrix
+#Pull the 2nd element in the 4th column of the matrix
 a <- matrix(1:12, nrow = 3, byrow = T)
 a[___,___]
 
-#Get the carat column Data frame
+#Pull only the **carat** column in the **diamonds** data frame
 diamonds$___
 
 
