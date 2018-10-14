@@ -14,7 +14,7 @@ xp: 100
 ggplot2 is the most comprehensive visualization package in R. Developed by Hadley Wickham, ggplot2 offers the ability to use any type of chart in a consistent and reproducible way. Although the code to create each chart looks very similar, it can be easily adapted to add or subtract additional aesthetic layers. We will introduce the ggplot2 package here with the diamonds dataset to create many different plots.
 
 `@instructions`
-
+follow the instructors guide to using the ggplot on the diamonds datset
 
 `@hint`
 

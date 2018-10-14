@@ -188,7 +188,7 @@ vector[___]
 a <- matrix(1:12, nrow = 3, byrow = T)
 a[___,___]
 
-#Call only the **carat** column within the **diamonds** data frame
+#Call only the carat column within the diamonds data frame
 diamonds$___
 
 
@@ -296,7 +296,7 @@ dplyr is one of the most useful packages R offers. Developed by Hadley Wickham, 
 
 - Filter your data to only show "Ideal" diamonds
 
--
+- select the relavent columns
 
 `@hint`
 
@@ -355,7 +355,7 @@ all_except_y <- select(data, -y)
 
 ---
 
-## Practice exercises 1
+## Practice exercises
 
 ```yaml
 type: NormalExercise
