@@ -92,9 +92,10 @@ Data frames are similar to matrices and the table structure in Excel. Each row r
 
 `@instructions`
 -Store a five, ten and fifteen into the variable **vector**
+
 -Find the sum of all the elements of **vector**
+
 -Use the head(), summary() and str() functions to inspect the diamonds data frame
--
 
 `@hint`
 
@@ -158,7 +159,9 @@ vector[2] # Outputs 5
 - Matrices: can be subset using square brackets with a comma separating the row and column indices respectively.
 
 a <- matrix(1:12, nrow = 3, byrow = T)
-a[2,3] # Outputs the data point in the second row of the third column
+
+a[2,3] #Outputs the data point in the second row of the third column
+
 
 - Data frames: Similar to subsetting matrices, but columns can also be called directly by name by using the $ symbol after the name of the data frame (names are explained in the next exercise).
 
@@ -249,7 +252,7 @@ df <- ___(___,___)
 df
 
 # Rename the column headers
-clnmes <- c("onetoten", "eleventotwenty")
+clnmes <- c("oneToTen", "ElevenToTwenty")
 ___(__) <- clnmes
 
 # Print the variable df into the console
@@ -376,7 +379,7 @@ Follow the instructions to complete the additional challenges. These challenges 
 #Create subset Here
 
 
-#Create sutset Here
+#Create subset Here
 
 
 #Create subset Here
