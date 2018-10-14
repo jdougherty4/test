@@ -69,7 +69,7 @@ xp: 100
 returns 5, where 1 and 4 are **arguments** and sum() is the **function**. 
 
 
-Similarly,functions can also be used as arguments within other functions:
+Similarly, functions can also be used as arguments within other functions:
 
 **sum(1 , sum( 1 ,3))**
 
@@ -79,8 +79,11 @@ Would return the same result because sum(1,3) evaluates to 4.
 Use one of the functions below to perform calculations:
 
 sqrt() #square root
+
 abs() #absolute value 
+
 mean() #average()
+
 print()
 
 `@hint`
