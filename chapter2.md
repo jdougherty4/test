@@ -37,7 +37,10 @@ typeof(1.2)
 as.integer(3.2)
 
 char <- "Hello World"
-print(char)
+___(char)
+
+1<2
+1>2
 ```
 
 `@solution`
@@ -47,56 +50,11 @@ typeof(1.2)
 
 as.integer(3.2)
 
-
-
 char <- "Hello World"
 print(char)
 
 1<2
 1>2
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
-## Data Types 2
-
-```yaml
-type: NormalExercise
-key: 711cb60cc4
-xp: 100
-```
-
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-1<2
-1>2
-T
-F
-
-factor()
-```
-
-`@solution`
-```{r}
 
 ```
 
@@ -314,7 +272,7 @@ df
 
 ---
 
-## Manipulating data with dplyr
+## dplyr preview
 
 ```yaml
 type: NormalExercise
@@ -322,7 +280,9 @@ key: 3fe03bbcf3
 xp: 100
 ```
 
-select and filter
+dplyr is one of the most useful packages R offers. Developed by Hadley Wickham, it offers some of the best and intuitive tools for working with your data. In reality, the most time-consuming part of data analysis is the time spent cleaning and preparing your data. dplyr makes this process easier, faster, and more reproducible. We will cover dplyr more in section 2 when will collect and clean a real dataset, but right now we will examine the filter() and select() functions.
+
+
 
 `@instructions`
 
@@ -337,12 +297,44 @@ select and filter
 
 `@sample_code`
 ```{r}
+library(___)
 
+data <- diamonds
+
+#Filter the data to show only the diamonds where cut is Ideal 
+filter(data, cut == ___)  #remember R is case sensitive
+
+#Save to a variable
+ideal <- filter(data, ___ == ___) 
+
+x_y_z <- select(data, ___, ___, ___)
+
+xyz <- select(data, ___:___)
+
+identical(x_y_z, xyz)
+
+all_except_y <- select(data, -___)
 ```
 
 `@solution`
 ```{r}
+library(dplyr)
 
+data <- diamonds
+
+#Remember R is case sensitive
+filter(data, cut == "Ideal") 
+
+#Save to a variable
+ideal <- filter(data, cut == "Ideal") 
+
+x_y_z <- select(data, x,y,z)
+
+xyz <- select(data, x:z)
+
+identical(x = x_y_z, xyz)
+
+all_except_y <- select(data, -y)
 ```
 
 `@sct`
@@ -363,9 +355,11 @@ xp: 100
 Follow the instructions to complete the additional challenges. These challenges are optional, but they offer more of a comprehensive glimpse of what's possible with R
 
 `@instructions`
-Subset the vector diamonds$carat to find the value in the 6th row
-Subset the diamonds dataframe to keep only cut and price columns
-subset the diamonds dataframe to find the 8th row in the price column
+- Subset the vector diamonds$carat to find the value in the 6th row
+
+- Subset the diamonds dataframe to keep only cut and price columns
+
+- Subset the diamonds dataframe to find the 8th row in the price column
 
 `@hint`
 

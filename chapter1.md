@@ -149,7 +149,7 @@ sum(two, 5)
 Will result in an error.
 
 `@instructions`
-
+- Complete the functions and interpret the results.
 
 `@hint`
 
@@ -285,6 +285,9 @@ Follow the instructions to complete the additional challenges. These challenges 
 Create a script that stores the number 5 to the variable **n**, then print the variable using the print() function. 
 
 Create a script that **adds** up a **sequence** of odd numbers from 0 to 25
+- First, create the sequence and store it in a variable named "odds"
+- Next, find the sum of the odds variable
+- Finally, find the square root of the sum of odds
 
 `@hint`
 

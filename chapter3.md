@@ -29,43 +29,72 @@ library(ggplot2)
 
 `@sample_code`
 ```{r}
-#Load the ggplot2 package
-___(ggplot2)
-#The Dataset named "Data" is loaded into your workspace
-head(data)
+diamonds
+?diamonds
 
-data1 <- data[,1:5]
+head(diamonds)
+
+#Get some more info on your data
+summary(diamonds)
+
+#save the data in its own variable
+data <- diamonds
+
+___(data = ___, aes(x = ___))
+
+___(data = ___, ___(x = ___)) + 
+  geom_bar()
+
+#save the outline of the plot to aviod typing the same code
+a <- ___(data = ___, aes(x = ___))
+
+a + geom_bar()
+
+# switching to another chart tpye which requires a y variable
+a + geom_boxplot(___(y = ___))
+
+a <- ggplot(data = data, aes(x = cut, ___ = color))
+a + geom_bar()
+
+?geom_bar()
+
+a + geom_bar(position = ___)
 
 
-a <- ggplot(data = data1, aes(x = Year, y =Price ) )
-
-a + geom_point()
-
-ggplot(data2, aes(x = ___, y = ___,  color = Products) ) +
-  geom_point()+
-  facet_wrap(___~Products) +
-  theme(axis.text.x=element_blank())
+a + geom_bar(position = ___)
 
 ```
 
 `@solution`
 ```{r}
-#Load the ggplot2 package
-___(ggplot2)
-#The Dataset named "Data" is loaded into your workspace
-head(data)
+diamonds
+?diamonds
 
-data1 <- data[,1:5]
+head(diamonds)
+summary(diamonds)
+
+data <- diamonds
+
+ggplot(data = data, aes(x = cut) )
+
+ggplot(data = data, aes(x = cut) ) + 
+  geom_bar()
+
+a <- ggplot(data = data, aes(x = cut) )
+
+a + geom_bar()
+
+a + geom_boxplot(aes(y = price))
+
+a <- ggplot(data = data, aes(x = cut, fill = color) )
+a + geom_bar()
+
+?geom_bar()
+
+a + geom_bar(position = "dodge")
 
 
-a <- ggplot(data = data1, aes(x = Year, y =Price ) )
-
-a + geom_point()
-
-ggplot(data2, aes(x = Year, y = Price,  color = Products) ) +
-  geom_point()+
-  facet_wrap(.~Products) +
-  theme(axis.text.x=element_blank())
+a + geom_bar(position = "fill")
 
 ```
 
@@ -99,11 +128,62 @@ xp: 100
 
 `@sample_code`
 ```{r}
+library(ggplot2)
+
+data <- diamonds
+
+___(data, ___(x = ___, y = ___)) + 
+   ___()
+
+mtcars
+?mtcars
+
+data2 <- mtcars
+
+ggplot(data2, aes(x=___, y = ___)) + 
+  geom_point()
+
+ggplot(data2, aes(x=wt, y = mpg, colour = ___)) + 
+  geom_point()
+
+ggplot(data2, aes(x=wt, y = mpg, colour = factor(___)) ) 
+  geom_point()
+
+str(data2)
+
+data2$cyl <- as.factor(data2$cyl)
+
+str(data2)
 
 ```
 
 `@solution`
 ```{r}
+library(ggplot2)
+
+data <- diamonds
+
+ggplot(data, aes(x=x, y = price)) + #Mapping is inside aes()  function. (have students run by itself at first)
+    geom_point() # good for dotplots to see the relationships between variables
+
+mtcars
+?mtcars
+data2 <- mtcars
+
+ggplot(data2, aes(x=wt, y = mpg)) + 
+  geom_point()
+
+ggplot(data2, aes(x=wt, y = mpg, colour = cyl)) + 
+  geom_point()
+
+ggplot(data2, aes(x=wt, y = mpg, colour = factor(cyl)) ) + #Explain factors here 
+  geom_point()
+
+str(data2)
+
+data2$cyl <- as.factor(data2$cyl)
+
+str(data2)
 
 ```
 
@@ -125,7 +205,7 @@ xp: 100
 
 
 `@instructions`
-
+We are given a cars dataset with the goal of finding out what factors lead to higher mpg
 
 `@hint`
 
@@ -137,11 +217,41 @@ xp: 100
 
 `@sample_code`
 ```{r}
-
+l
 ```
 
 `@solution`
 ```{r}
+?mtcars
+
+data <- mtcars
+
+data
+
+summary(data)
+
+ggplot(data, aes(x = wt, y = mpg)) + 
+  geom_point()
+
+ggplot(data, aes(x = wt, y = mpg)) + 
+  geom_point() +
+  geom_smooth()
+
+#seeing correlations between two x variabales
+
+ggplot(data, aes (x = cyl, y = wt)) + #What does this say about cars with more cylinder?
+  geom_point()
+
+ggplot(data, aes (x = hp, y = wt)) + 
+  geom_point()
+
+ggplot(data, aes (x = hp, y = wt)) + 
+  geom_point()+
+  facet_wrap(factor(cyl)~.)
+
+ggplot(data, aes (x = hp, y = wt, colour = factor(am))) + 
+  geom_point()+
+  facet_wrap(factor(cyl)~.)
 
 ```
 
@@ -186,6 +296,44 @@ Use facet_wrap() to get a boxplot of the price by quality.
 
 
 #Create Chart Here
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Try to make a plot yourself!
+
+```yaml
+type: NormalExercise
+key: beba48bb98
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+# put many datasets in here.
+```
+
+`@sample_code`
+```{r}
+
 ```
 
 `@solution`
