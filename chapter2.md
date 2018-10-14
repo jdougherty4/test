@@ -285,7 +285,7 @@ dplyr is one of the most useful packages R offers. Developed by Hadley Wickham, 
 
 
 `@instructions`
-
+==
 
 `@hint`
 
@@ -355,7 +355,7 @@ xp: 100
 Follow the instructions to complete the additional challenges. These challenges are optional, but they offer more of a comprehensive glimpse of what's possible with R
 
 `@instructions`
-- Subset the vector diamonds$carat to find the value in the 6th row
+- Subset the vector diamonds$carat to find the 6th value
 
 - Subset the diamonds dataframe to keep only cut and price columns
 
@@ -366,6 +366,11 @@ Follow the instructions to complete the additional challenges. These challenges 
 
 `@pre_exercise_code`
 ```{r}
+
+```
+
+`@sample_code`
+```{r}
 #Create subset Here
 
 
@@ -373,16 +378,16 @@ Follow the instructions to complete the additional challenges. These challenges 
 
 
 #Create subset Here
-```
-
-`@sample_code`
-```{r}
 
 ```
 
 `@solution`
 ```{r}
+diamonds$carat[6]
 
+select(diamonds, cut, price)
+
+diamonds$price[8]
 ```
 
 `@sct`

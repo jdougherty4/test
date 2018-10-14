@@ -11,7 +11,7 @@ key: d05e04f242
 xp: 100
 ```
 
-ggplot2 is the most comprehensive visualization package in R. It offers the ability to use any type of chart in a consistent and reproducible way. Although the code to create each chart looks very similar, it can be easily adapted to add and subtract additional aesthetic layers.
+ggplot2 is the most comprehensive visualization package in R. Developed by Hadley Wickham, ggplot2 offers the ability to use any type of chart in a consistent and reproducible way. Although the code to create each chart looks very similar, it can be easily adapted to add or subtract additional aesthetic layers. We will introduce the ggplot2 package here with the diamonds dataset to create many different plots.
 
 `@instructions`
 
@@ -113,7 +113,7 @@ key: 25e1fbb73c
 xp: 100
 ```
 
-
+Scatterplots allow you to see how variables interact with each other. You can get lots of insights from plotting one variable with another. Generally, the y variable is the one of interest. The y variable is sometimes called the dependent variable because its value depends on the values of the x variables. In the diamonds dataset, the **price** can be considered the dependent vairable while in the mtcars dataset, **mpg** is the dependent vairable.
 
 `@instructions`
 
@@ -202,10 +202,10 @@ key: 58ccf786be
 xp: 100
 ```
 
-
+We are interested in seeing how an x variable impacts a y variable. To do this, it's equally important to know how each x variable impacts each other. It is the analysts job to find out which variable actually has the highest correlation with the y variable. For example,suppose a popular SUV was painted green, but most other cars have blue or black paint. If someone looked at the relationship between car colors and mpg, they might incorrectly assume that green paint leads to lower mpg, when in reality the car type was causing the positive relationship.
 
 `@instructions`
-We are given a cars dataset with the goal of finding out what factors lead to higher mpg
+Similar to the example above, we are given a cars dataset with the goal of finding out what factors lead to higher mpg. See the different ways ggplot allows us to view the data.
 
 `@hint`
 
@@ -217,7 +217,7 @@ We are given a cars dataset with the goal of finding out what factors lead to hi
 
 `@sample_code`
 ```{r}
-l
+
 ```
 
 `@solution`
