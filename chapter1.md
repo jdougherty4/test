@@ -139,7 +139,7 @@ key: dde3d6001e
 xp: 100
 ```
 
-Syntax describes how to structure your scripts in a way R can understand. 
+Syntax is the spelling and grammer of a programming language, it involvs structuring your scripts in a way R can understand. 
 
 To use functions, it is essential to use the correct syntax. R was designed to be as readable as possible, but it comes with strict rules to enforce a consistent syntax structure. For example, variables  are case sensitive, so if you define:
 
