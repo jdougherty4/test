@@ -85,6 +85,7 @@ A vector can store many elements of data, as long as all the data is of the same
 You can create matrices in R using the matrix() function. Try pasting the below code in your Console.
 
 a <- matrix(1:12, nrow = 3, byrow = T)
+
 a
 
 Data frames are similar to matrices and the table structure in Excel. Each row represents a unique observation and each column represents a variable. Data frames are one of the most widely used data structure in R.
