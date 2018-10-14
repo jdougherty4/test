@@ -38,6 +38,8 @@ typeof(1.2)
 as.integer(3.2)
 
 char <- "Hello World"
+
+#find the type of char
 ___(char)
 
 1<2
@@ -52,7 +54,7 @@ typeof(1.2)
 as.integer(3.2)
 
 char <- "Hello World"
-print(char)
+typeof(char)
 
 1<2
 1>2
@@ -290,7 +292,11 @@ dplyr is one of the most useful packages R offers. Developed by Hadley Wickham, 
 
 
 `@instructions`
-==
+- Load the dplyr package with the library() function
+
+- Filter your data to only show "Ideal" diamonds
+
+-
 
 `@hint`
 
