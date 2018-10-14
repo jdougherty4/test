@@ -17,6 +17,7 @@ R has 5 major data types we will cover:
 - integer (whole numbers)
 - character (text or a string such as "Hello")
 - logical (True or False response to a logical statement)
+- factors (categorical variables)
 
 `@instructions`
 Run the sample code one line at a time. Notice what happens when a non-whole number is transformed into an integer. Feel free to play around with the functions.
