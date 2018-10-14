@@ -14,7 +14,7 @@ xp: 100
 ggplot2 is the most comprehensive visualization package in R. Developed by Hadley Wickham, ggplot2 offers the ability to use any type of chart in a consistent and reproducible way. Although the code to create each chart looks very similar, it can be easily adapted to add or subtract additional aesthetic layers. We will introduce the ggplot2 package here with the diamonds dataset to create many different plots.
 
 `@instructions`
-follow the instructors guide to using the ggplot on the diamonds datset
+Follow the instructors guide to using the ggplot on the diamonds dataset
 
 `@hint`
 
@@ -217,6 +217,36 @@ Similar to the example above, we are given a cars dataset with the goal of findi
 
 `@sample_code`
 ```{r}
+?mtcars
+
+data <- mtcars
+
+data
+
+summary(data)
+
+ggplot(data, aes(x = wt, y = mpg)) + 
+  geom_point()
+
+ggplot(data, aes(x = wt, y = mpg)) + 
+  geom_point() +
+  geom_smooth()
+
+#seeing correlations between two x variabales
+
+ggplot(data, aes (x = cyl, y = wt)) + #What does this say about cars with more cylinder?
+  geom_point()
+
+ggplot(data, aes (x = hp, y = wt)) + 
+  geom_point()
+
+ggplot(data, aes (x = hp, y = wt)) + 
+  geom_point()+
+  facet_wrap(factor(cyl)~.)
+
+ggplot(data, aes (x = hp, y = wt, colour = factor(am))) + 
+  geom_point()+
+  facet_wrap(factor(cyl)~.)
 
 ```
 
