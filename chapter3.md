@@ -358,17 +358,18 @@ xp: 100
 
 `@pre_exercise_code`
 ```{r}
-# put many datasets in here.
+link <- "https://assets.datacamp.com/production/repositories/3649/datasets/88727cc5a0de45d2ac58007c9159496d259904b4/countries of the world.csv"
+data <- read.csv(link)
 ```
 
 `@sample_code`
 ```{r}
-
+data
 ```
 
 `@solution`
 ```{r}
-
+data
 ```
 
 `@sct`
