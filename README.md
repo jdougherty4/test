@@ -1,4 +1,4 @@
-# **Course Title**<br/>by **Course Author**
+# **Getting Started with R**<br/>by **Course Author**
 
 README and sample lesson deadline: YYYY-MM-DD 
 
@@ -20,10 +20,15 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 ### 1. What problem(s) will students learn how to solve? (minimum of 5 problems)
 
 - [ ] Write a list of ideas for problems that the students will encounter in the course.
-> From a course on fraud detection:
 >
->- How to identify and predict fraudulent transactions
->- How to effectively work with highly imbalanced data
+>- How to start using R with only Excel experience;
+>- How to structure code in a neat, syntax-friendly way;
+>- Understand the advantages of using R over Excel;
+>- Summarizing and understand a dataset without seeing a table;
+>- Understand the importance of data types and what they are; 
+>- How data structures work and what variables/observations are;
+>- What packages are and how to load them;
+>- Visualization general rules and best practices;
 
 
 ### 2. What are the learning objectives of the course?
@@ -32,11 +37,11 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 
 >Example from our scikit-learn course:
 >
->- Learn the key concepts of supervised learning and how to implement them on real-world datasets;
->- Learn to distinguish regression from classification problems;
->- Learn to evaluate how well your classification and regression modes perform;
->- Learn best practices in supervised learning, such as splitting into test/train sets and k-fold cross validation;
->- Learn how to improve model performance by both preprocessing your data and regularizing your models.
+>- Learn how to get started using R from a business student perspective;
+>- Learn to explore your data in a meaningful way using reproducible code;
+>- Learn to use R to filter your data using both base R and the dplyr package;
+>- Learn how the ggplot2 package can be used to gain business insights;
+>- Learn how to read documentation and troubleshoot with google to independently learn new things;
 
 
 ### 3. What technologies, packages, or functions will students use? Please be exhaustive.
@@ -47,18 +52,12 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 
 >Example from a course on keras. This example has only a few Python packages and goes into depth on the functions that will be used.
 >
->- keras, pandas, sklearn
->- Keras functions:
->- Dense
->- Concatenate, Subtract, Multiply (operate on two layers)
->- l2
->- Embedding
->- Flatten
->- keras.preprocessing.text.text_to_word_sequence
->- keras.preprocessing.sequence.pad_sequences
->- GRU
->- Bidirectional
-
+>- libraries:
+>- ggplot2, dplyr::filter, dplyr::select  
+>- General functions:
+>- sum, abs, identical, typeof, print, factor, as.integer, ect.
+>- Data:
+>- A csv with world economic data
 
 ### 4. What terms or jargon will you define?
 
@@ -66,8 +65,7 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 
 > Example from a course on experimental design. This has an extensive list of statistical terms.
 >
->Randomization, replication, blocking, Latin Square, Greco-Latin Squares, factorial, ANOVA, T-test, F-test, normality, >qqplot, variance, type I/II error, null/alternative hypothesis, effect size, factor/categorical variable
-
+> factor, integer, console, scripts, central tendancy, varience, packages, fuctions, arguments, asetics, layers, mapping.
 
 ### 5. What analogies or heuristics will you use?
 
@@ -76,26 +74,25 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 >Example from a course on forecasting product demand. This analogy is likely intuitive to most people.
 >
 >Signal and noise - It's like trying to hear someone across a crowded room. Remove the noise, and you can easily understand what they are telling you.
-
+>Funcations, documentation, and Arguments - A function can be thought of as an   
 
 ### 6. What mistakes or misconceptions do you expect? 
 
 - [ ] Write a list of common mistakes _(minimum of two)_ that you think students will make. These can be programming mistakes, conceptual misunderstandings, or simply examples of things that are unintuitive. 
 
->Example from a course on generalized additive models:
->
->The difference between prediction intervals and confidence intervals.
-
+> Dealing with R being case sensitive and avioding sytax errors when using functions.
+> Learning how to make various plots with no helper code or instructions
+> Understanding the difference to an a regular argument and an argument used within aes() 
+> Understanding how variables work 
 
 ### 7. What datasets will you use? 
 
 - [ ] Write a list of datasets that you will in the course, a short description of each dataset (if it's not clear from the title), how you intend to use it and include a link to its source(s).
 
-- [ ] Upload these datasets to your course on the Teach Editor. 
-
-![teach_editor_datasets_upload](https://user-images.githubusercontent.com/20912644/44154482-d2e04b3a-a078-11e8-8ff9-2944fdcabeae.png)
-
-Please avoid [overused datasets](https://authoring.datacamp.com/courses/design/brainstorming-datasets.html).
+> Countries of the World: A dataset taken from kaggles open datasets(https://www.kaggle.com/fernandol/countries-of-the-world/home)
+> Original data from the cia world factbook (http://gsociology.icaap.org/dataupload.html)
+> Spaces and special charatrers removed from column names.
+> The diamonds dataset from ggplot2 and the mtcars dataset are also used. mtcars exersises were used for a few examples before we were made aware of the overused dataset section, if its an issue it can be changed.
 
 ## Step 2: Who is this course for?
 
