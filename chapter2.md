@@ -289,8 +289,6 @@ xp: 100
 
 dplyr is one of the most useful packages R offers. Developed by Hadley Wickham, it offers some of the best and intuitive tools for working with your data. In reality, the most time-consuming part of data analysis is the time spent cleaning and preparing your data. dplyr makes this process easier, faster, and more reproducible. We will cover dplyr more in section 2 when will collect and clean a real dataset, but right now we will examine the filter() and select() functions.
 
-
-
 `@instructions`
 - Load the dplyr package with the library() function
 
